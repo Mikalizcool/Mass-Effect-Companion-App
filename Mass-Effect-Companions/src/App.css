@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+.characterImage {
+  width: 40%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.container img {
+  margin-left: 10px;
+}

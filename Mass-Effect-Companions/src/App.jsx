@@ -8,6 +8,31 @@ function App() {
 
   return (
     <>
+      <p>Throughout the Milky Way and Andromeda Galaxies, we encounter several companions.</p>
+      <div className="container">
+        <img
+          src = "https://placehold.co/600x400"
+          alt = "Kaiden Alenko"
+          className = "characterImage"
+        />
+        <img
+          src = "https://placehold.co/600x400"
+          alt = "Kaiden Alenko"
+          className = "characterImage"
+        />
+      </div>
+      <div className="container">
+        <img
+          src = "https://placehold.co/600x400"
+          alt = "Kaiden Alenko"
+          className = "characterImage"
+        />
+        <img
+          src = "https://placehold.co/600x400"
+          alt = "Kaiden Alenko"
+          className = "characterImage"
+        />
+      </div>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
