@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import garrusProfile from './assets/garrus-profile.jpg'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -10,28 +11,48 @@ function App() {
     <>
       <p>Throughout the Milky Way and Andromeda Galaxies, we encounter several companions.</p>
       <div className="container">
-        <img
-          src = "https://placehold.co/600x400"
-          alt = "Kaiden Alenko"
-          className = "characterImage"
-        />
-        <img
-          src = "https://placehold.co/600x400"
-          alt = "Kaiden Alenko"
-          className = "characterImage"
-        />
+        <div className="characterProfile">
+          <h2>Garrus Vakarian</h2>
+          <a href="https://mikalizcool.com" target="_blank">
+            <img
+              src = {garrusProfile}
+              alt = "Kaiden Alenko"
+              className = "characterImage"
+            />
+          </a>
+        </div>
+        <div className="characterProfile">
+          <h2>Garrus Vakarian</h2>
+          <a href="https://mikalizcool.com" target="_blank">
+            <img
+              src = {garrusProfile}
+              alt = "Kaiden Alenko"
+              className = "characterImage"
+            />
+          </a>
+        </div>
       </div>
       <div className="container">
-        <img
-          src = "https://placehold.co/600x400"
-          alt = "Kaiden Alenko"
-          className = "characterImage"
-        />
-        <img
-          src = "https://placehold.co/600x400"
-          alt = "Kaiden Alenko"
-          className = "characterImage"
-        />
+      <div className="characterProfile">
+          <h2>Garrus Vakarian</h2>
+          <a href="https://mikalizcool.com" target="_blank">
+            <img
+              src = {garrusProfile}
+              alt = "Kaiden Alenko"
+              className = "characterImage"
+            />
+          </a>
+        </div>
+        <div className="characterProfile">
+          <h2>Garrus Vakarian</h2>
+          <a href="https://mikalizcool.com" target="_blank">
+            <img
+              src = {garrusProfile}
+              alt = "Kaiden Alenko"
+              className = "characterImage"
+            />
+          </a>
+        </div>
       </div>
       <div>
         <a href="https://vitejs.dev" target="_blank">
