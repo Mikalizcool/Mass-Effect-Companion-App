@@ -1,3 +1,4 @@
+import React from 'react'
 import massEffectLogo from './assets/Mass_Effect_logo.png'
 import './Logo.css'
 function Logo () {
