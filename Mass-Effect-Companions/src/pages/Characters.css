@@ -1,9 +1,7 @@
-body{
-  background-image: none;
-}
 .characterImage {
     border-style: solid;
     border-color: rgb(63, 63, 63);
+    width: 400px;
   }
   
   .characterImage:hover {

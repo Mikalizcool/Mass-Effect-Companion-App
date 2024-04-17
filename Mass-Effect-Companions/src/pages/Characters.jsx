@@ -7,9 +7,10 @@ import liaraProfile from '../assets/liara-profile.jpg'
 import taliProfile from '../assets/tali-profile.jpg'
 import jackProfile from '../assets/jack-profile.jpg'
 import mirandaProfile from '../assets/miranda-profile.jpg'
-
+import { UseBackgroundImage } from '../hooks/designhooks';
 import './Characters.css'
 function Characters () {
+    UseBackgroundImage('');
     return (
         <>
             <p>Throughout the Milky Way Galaxy, we encounter several companions...</p>

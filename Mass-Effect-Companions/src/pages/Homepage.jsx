@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Logo from '../Logo'
 import bg from '../assets/homepage.jpg'
-import { UseBackgroundImage } from "./UseBackgroundImage";
+import { UseBackgroundImage } from "../hooks/designhooks";
 function Homepage () {
     
     UseBackgroundImage(bg);
