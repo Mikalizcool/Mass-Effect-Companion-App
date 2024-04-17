@@ -1,5 +1,5 @@
 import React from 'react'
-import './Footer.css'
+import './Footer.module.css'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 

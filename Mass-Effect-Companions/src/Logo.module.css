@@ -1,9 +1,9 @@
-.melogo {
+.logo {
     width: 400px;
     height: auto;
     padding: 0;
 }
-.companion-app {
+.companionapp {
     margin-top: 0;
     opacity: 90%;
 }
@@ -12,13 +12,13 @@
     flex-direction: column;
 }
 @media (max-width: 800px) {
-    .melogo {
+    .logo {
         display: flex;
         justify-content: center; 
         width: 100%;
     }
 
-    .companion-app {
+    .companionapp {
         text-align: center;
     }
     .container {
