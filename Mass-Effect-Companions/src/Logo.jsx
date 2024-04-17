@@ -8,7 +8,7 @@ function Logo () {
             src = {massEffectLogo}
             alt = "Mass Effect Logo"
             />
-            <h1> Companions </h1>
+            <h1> Companion App </h1>
         </>
     )
 }

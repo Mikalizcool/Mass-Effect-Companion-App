@@ -1,8 +1,28 @@
+/*
 body {
     background-image: url('../assets/homepage.jpg');
     background-size: cover;
 }
+*/
+ul {
+    color: white;
+    list-style: none;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    padding-left: 0;
+}
 
 @media (max-width: 800px) {
-    background-size: contain;
+    body {
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    ul {
+        text-align: center;
+    }
 }

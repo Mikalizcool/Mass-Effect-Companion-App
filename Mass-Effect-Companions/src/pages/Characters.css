@@ -1,3 +1,6 @@
+body{
+  background-image: none;
+}
 .characterImage {
     border-style: solid;
     border-color: rgb(63, 63, 63);
@@ -13,13 +16,9 @@
     margin: 10px;
   }
   
-  .container img {
-    
-  }
-  
   .characterProfile {
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
