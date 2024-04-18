@@ -1,21 +1,22 @@
-import './Homepage.css'
+import './Homepage.module.css'
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Logo from '../Logo'
 import bg from '../assets/homepage.jpg'
 import { UseBackgroundImage } from "../hooks/designhooks";
+import style from './Homepage.module.css'
 function Homepage () {
     
     UseBackgroundImage(bg);
     return (
-        <>
+        <div className={style.container}>
             
             <Logo />
-            <ul>
-                <li>History of Mass Effect</li>
-                <li><Link to="/companions">Companions</Link></li>
-            </ul>
-        </>
+                <ul>
+                    <li><Link to="history">History of Mass Effect</Link></li>
+                    <li><Link to="/companions">Companions</Link></li>
+                </ul>
+        </div>
     )
 }
 

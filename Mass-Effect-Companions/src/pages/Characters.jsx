@@ -9,10 +9,12 @@ import jackProfile from '../assets/jack-profile.jpg'
 import mirandaProfile from '../assets/miranda-profile.jpg'
 import { UseBackgroundImage } from '../hooks/designhooks';
 import './Characters.css'
+import Navbar from '../Navbar'
 function Characters () {
     UseBackgroundImage('');
     return (
         <>
+            <Navbar />
             <p>Throughout the Milky Way Galaxy, we encounter several companions...</p>
             <div className="container">
                 <div className="characterProfile">

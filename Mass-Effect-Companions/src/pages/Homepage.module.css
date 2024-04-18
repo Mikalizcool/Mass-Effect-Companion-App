@@ -1,9 +1,10 @@
-/*
-body {
-    background-image: url('../assets/homepage.jpg');
-    background-size: cover;
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 50px;
+
 }
-*/
 ul {
     color: white;
     list-style: none;
@@ -13,6 +14,8 @@ ul {
     font-style: normal;
     font-size: 1.5rem;
     padding-left: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 800px) {

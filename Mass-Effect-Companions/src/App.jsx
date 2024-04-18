@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 
 import CharacterPage from './pages/Characters'
+import Historypage from './pages/History'
 import Footer from './Footer'
 import Logo from './Logo'
 import HomePage from './pages/Homepage'
@@ -21,6 +22,7 @@ function App() {
     <BrowserRouter>
       <Routes>
           <Route index element={<HomePage />} />
+          <Route path="history" element={<Historypage />} />
           <Route path="companions" element={<CharacterPage />} />
       </Routes>
       <Footer />
