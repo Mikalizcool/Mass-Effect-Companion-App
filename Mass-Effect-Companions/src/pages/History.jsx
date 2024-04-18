@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { UseBackgroundImage } from "../hooks/designhooks";
 import history from '../assets/history.jpg'
 
-import Navbar from '../Navbar'
+import Navbar from '../components/Navbar'
 
 import style from './History.module.css'
 function History () {

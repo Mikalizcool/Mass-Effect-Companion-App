@@ -10,7 +10,7 @@ import mirandaProfile from '../assets/miranda-profile.jpg'
 import { UseBackgroundImage } from '../hooks/designhooks';
 import companions from '../assets/companions.jpg'
 import './Characters.css'
-import Navbar from '../Navbar'
+import Navbar from '../components/Navbar'
 function Characters () {
     UseBackgroundImage();
     return (

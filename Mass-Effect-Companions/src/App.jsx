@@ -7,8 +7,8 @@ import './App.css'
 
 import CharacterPage from './pages/Characters'
 import Historypage from './pages/History'
-import Footer from './Footer'
-import Logo from './Logo'
+import Footer from './components/Footer'
+import Logo from './components/Logo'
 import HomePage from './pages/Homepage'
 
 

@@ -1,7 +1,7 @@
 import './Homepage.module.css'
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Logo from '../Logo'
+import Logo from '../components/Logo'
 import bg from '../assets/homepage.jpg'
 import { UseBackgroundImage } from "../hooks/designhooks";
 import style from './Homepage.module.css'
