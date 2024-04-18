@@ -1,13 +1,14 @@
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-width: 100vh;
 }
-ul {
+.ulcontainer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    list-style: none;
 }
-ul li {
+.lidesign {
     margin-right: 10px;
 }

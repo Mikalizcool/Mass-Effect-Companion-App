@@ -8,10 +8,11 @@ import taliProfile from '../assets/tali-profile.jpg'
 import jackProfile from '../assets/jack-profile.jpg'
 import mirandaProfile from '../assets/miranda-profile.jpg'
 import { UseBackgroundImage } from '../hooks/designhooks';
+import companions from '../assets/companions.jpg'
 import './Characters.css'
 import Navbar from '../Navbar'
 function Characters () {
-    UseBackgroundImage('');
+    UseBackgroundImage();
     return (
         <>
             <Navbar />

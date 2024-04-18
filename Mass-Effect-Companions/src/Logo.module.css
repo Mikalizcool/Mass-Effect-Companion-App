@@ -5,12 +5,14 @@
 }
 .companionapp {
     margin-top: 0;
-    opacity: 90%;
+    opacity: 70%;
+    font-size: 50px;
 }
 .container {
     display: flex;
     flex-direction: column;
 }
+
 @media (max-width: 800px) {
     .logo {
         display: flex;

@@ -5,13 +5,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import style from './Navbar.module.css'
 function Navbar () {
     return (
-        <div className={style.container}>
-            <ul>
-                <li>Home</li>
-                <li>History</li>
-                <li>Characters</li>
+        <>
+            <ul className={style.ulcontainer}>
+                <li className={style.lidesign}>Home</li>
+                <li className={style.lidesign}>History</li>
+                <li className={style.lidesign}>Characters</li>
             </ul>
-        </div>
+        </>
     )
 }
 export default Navbar;
