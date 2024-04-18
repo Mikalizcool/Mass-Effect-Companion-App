@@ -1,5 +1,5 @@
 import React from 'react'
-import massEffectLogo from './assets/Mass_Effect_logo.png'
+import massEffectLogo from '../assets/Mass_Effect_logo.png'
 import style from './Logo.module.css'
 function Logo () {
     return (
