@@ -3,13 +3,24 @@
     flex-direction: column;
     background: linear-gradient(90deg, #333 0%, rgba(0, 176, 212, 0.43) 100%);
     min-height: 50vh;
-    padding-left: 10px;
+    padding-left: 15px;
+    margin-top: 40px;
 }
 
+.opening {
+    width: 50%;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+}
 .pcontainer {
     width: 50%;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 1.5rem;
 }
 
-h1 {
-    font-size: 30px;;
+.year {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 3rem;
 }
