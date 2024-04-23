@@ -14,7 +14,7 @@ function Homepage () {
             <Logo />
                 <ul className={style.ulcontainer}>
                     <li><Link to="history">History of Mass Effect</Link></li>
-                    <li><Link to="/companions">Companions</Link></li>
+                    <li><Link to="companions">Companions</Link></li>
                 </ul>
         </>
     )

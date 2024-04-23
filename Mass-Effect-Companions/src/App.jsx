@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import './App.css'
 
-import CharacterPage from './pages/Characters'
+import Characterpage from './pages/Characters'
 import Historypage from './pages/History'
 import Footer from './components/Footer'
 import Logo from './components/Logo'
@@ -23,7 +23,7 @@ function App() {
       <Routes>
           <Route index element={<HomePage />} />
           <Route path="history" element={<Historypage />} />
-          <Route path="companions" element={<CharacterPage />} />
+          <Route path="companions" element={<Characterpage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
