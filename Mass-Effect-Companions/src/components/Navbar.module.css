@@ -1,14 +1,24 @@
-.container {
+.navbar {
     display: flex;
-    flex-direction: row;
-    min-width: 100vh;
-}
-.ulcontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
     list-style: none;
 }
-.lidesign {
-    margin-right: 10px;
+.navbarright {
+    display: flex;
+}
+
+.navbarright li {
+    margin-right: 50px;
+}
+
+.navbarleft {
+    order: -1;
+}
+
+.logo {
+    width: 15%;
 }
