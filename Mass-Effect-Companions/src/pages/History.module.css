@@ -1,9 +1,13 @@
 .container {
     display: flex;
     flex-direction: column;
-    background-color: rgba(90, 110, 119, 0.4);
-    max-width: 60vh;
+    background: linear-gradient(90deg, #333 0%, rgba(0, 176, 212, 0.43) 100%);
     min-height: 50vh;
+    padding-left: 10px;
+}
+
+.pcontainer {
+    width: 50%;
 }
 
 h1 {
