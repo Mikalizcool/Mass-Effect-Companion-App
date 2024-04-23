@@ -10,7 +10,7 @@
   
   .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 10px;
   }
   
@@ -20,6 +20,12 @@
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .intro {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 1.5rem;
+    padding: 15px;
   }
   
   .characterProfile:hover {
