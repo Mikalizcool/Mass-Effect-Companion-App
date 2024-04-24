@@ -31,6 +31,32 @@
   .characterProfile:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+
+  .gameContainer {
+    display: flex;
+    width: 10%;
+  }
+
+  .characterContainer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .gameText {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 2rem;
+    padding: 15px;
+    letter-spacing: -5px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .characterRow {
+    display: flex;
+  }
   @media (max-width: 800px) {
     .container {
       flex-direction: column;

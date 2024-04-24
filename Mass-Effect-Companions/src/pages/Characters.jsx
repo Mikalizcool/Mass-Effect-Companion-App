@@ -18,71 +18,252 @@ function Characters () {
             <Navbar />
             <p className={style.intro}>Throughout the Milky Way Galaxy, we encounter several companions...</p>
             <div className={style.container}>
-                <div className={style.characterProfile}>
-                <h2>Garrus Vakarian</h2>
-                <Link to="Garrus">
-                    <img
-                    src = {garrusProfile}
-                    alt = "Kaiden Alenko"
-                    className = {style.characterImage}
-                    />
-                </Link>
+                <div className={style.gameContainer}>
+                    <p className={style.gameText}>Mass Effect 1</p>
                 </div>
-                <div className={style.characterProfile}>
-                <h2>Urdnot Wrex</h2>
-                <a href="https://mikalizcool.com" target="_blank">
-                    <img
-                    src = {wrexProfile}
-                    alt = "Kaiden Alenko"
-                    className = {style.characterImage}
-                    />
-                </a>
+                <div className={style.characterContainer}>
+                    <div className={style.characterRow}>
+                        <div className={style.characterProfile}>
+                            <h2>Garrus Vakarian</h2>
+                            <Link to="Garrus">
+                                <img
+                                src = {garrusProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </Link>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Urdnot Wrex</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {wrexProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Liara Tsoni</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {liaraProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div className={style.characterRow}>
+                        <div className={style.characterProfile}>
+                            <h2>Tali Zorah</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {taliProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Tali Zorah</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {taliProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Tali Zorah</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {taliProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div className={style.container}>
-            <div className={style.characterProfile}>
-                <h2>Liara Tsoni</h2>
-                <a href="https://mikalizcool.com" target="_blank">
-                    <img
-                    src = {liaraProfile}
-                    alt = "Kaiden Alenko"
-                    className = {style.characterImage}
-                    />
-                </a>
+                <div className={style.gameContainer}>
+                    <p className={style.gameText}>Mass Effect 2</p>
                 </div>
-                <div className={style.characterProfile}>
-                <h2>Tali Zorah</h2>
-                <a href="https://mikalizcool.com" target="_blank">
-                    <img
-                    src = {taliProfile}
-                    alt = "Kaiden Alenko"
-                    className = {style.characterImage}
-                    />
-                </a>
+                <div className={style.characterContainer}>
+                    <div className={style.characterRow}>
+                        <div className={style.characterProfile}>
+                            <h2>Garrus Vakarian</h2>
+                            <Link to="Garrus">
+                                <img
+                                src = {garrusProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </Link>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Urdnot Wrex</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {wrexProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Liara Tsoni</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {liaraProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div className={style.characterRow}>
+                        <div className={style.characterProfile}>
+                            <h2>Tali Zorah</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {taliProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Tali Zorah</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {taliProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Tali Zorah</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {taliProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div className={style.characterRow}>
+                        <div className={style.characterProfile}>
+                            <h2>Garrus Vakarian</h2>
+                            <Link to="Garrus">
+                                <img
+                                src = {garrusProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </Link>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Urdnot Wrex</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {wrexProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Liara Tsoni</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {liaraProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div className={style.characterRow}>
+                        <div className={style.characterProfile}>
+                            <h2>Garrus Vakarian</h2>
+                            <Link to="Garrus">
+                                <img
+                                src = {garrusProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div className={style.container}>
-            <div className={style.characterProfile}>
-                <h2>Jack</h2>
-                <a href="https://mikalizcool.com" target="_blank">
-                    <img
-                    src = {jackProfile}
-                    alt = "Kaiden Alenko"
-                    className = {style.characterImage}
-                    />
-                </a>
+                <div className={style.gameContainer}>
+                    <p className={style.gameText}>Mass Effect 3</p>
                 </div>
-                <div className={style.characterProfile}>
-                <h2>Miranda</h2>
-                <a href="https://mikalizcool.com" target="_blank">
-                    <img
-                    src = {mirandaProfile}
-                    alt = "Kaiden Alenko"
-                    className = {style.characterImage}
-                    />
-                </a>
+                <div className={style.characterContainer}>
+                    <div className={style.characterRow}>
+                        <div className={style.characterProfile}>
+                            <h2>Garrus Vakarian</h2>
+                            <Link to="Garrus">
+                                <img
+                                src = {garrusProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </Link>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Urdnot Wrex</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {wrexProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Liara Tsoni</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {liaraProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div className={style.characterRow}>
+                        <div className={style.characterProfile}>
+                            <h2>Tali Zorah</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {taliProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Tali Zorah</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {taliProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
