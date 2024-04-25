@@ -9,6 +9,8 @@ import Characterpage from './pages/Characters'
 import Historypage from './pages/History'
 import Garruspage from './Characterpages/Garrus'
 import Wrexpage from './Characterpages/Wrex'
+import Liarapage from './Characterpages/Liara'
+import Talipage from './Characterpages/Tali'
 
 import Footer from './components/Footer'
 import Logo from './components/Logo'
@@ -29,6 +31,8 @@ function App() {
           <Route path="companions" element={<Characterpage />} />
           <Route path="garrus" element={<Garruspage />} />
           <Route path="wrex" element={<Wrexpage />} />
+          <Route path="liara" element={<Liarapage />} />
+          <Route path="tali" element={<Talipage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

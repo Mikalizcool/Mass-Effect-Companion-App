@@ -14,6 +14,10 @@
     width: 40%;
 }
 
+.containerright img {
+    max-width: 400px;
+}
+
 .name {
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;

@@ -48,25 +48,25 @@ function Characters () {
                         </div>
                         <div className={style.characterProfile}>
                             <h2>Liara Tsoni</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/liara">
                                 <img
                                 src = {liaraProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
                             <h2>Tali Zorah</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/tali">
                                 <img
                                 src = {taliProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className={style.characterProfile}>
                             <h2>Ashley Williams</h2>
