@@ -8,6 +8,7 @@ import './App.css'
 import Characterpage from './pages/Characters'
 import Historypage from './pages/History'
 import Garruspage from './Characterpages/Garrus'
+import Wrexpage from './Characterpages/Wrex'
 
 import Footer from './components/Footer'
 import Logo from './components/Logo'
@@ -27,6 +28,7 @@ function App() {
           <Route path="history" element={<Historypage />} />
           <Route path="companions" element={<Characterpage />} />
           <Route path="garrus" element={<Garruspage />} />
+          <Route path="wrex" element={<Wrexpage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

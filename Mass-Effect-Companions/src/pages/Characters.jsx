@@ -7,6 +7,9 @@ import liaraProfile from '../assets/liara-profile.jpg'
 import taliProfile from '../assets/tali-profile.jpg'
 import jackProfile from '../assets/jack-profile.jpg'
 import mirandaProfile from '../assets/miranda-profile.jpg'
+import ashleyProfile from '../assets/ashley-profile.jpg'
+import kaidenProfile from '../assets/kaiden-profile.jpg'
+
 import { UseBackgroundImage } from '../hooks/designhooks';
 import companions from '../assets/companions.jpg'
 import style from './Characters.module.css'
@@ -35,13 +38,13 @@ function Characters () {
                         </div>
                         <div className={style.characterProfile}>
                             <h2>Urdnot Wrex</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/wrex">
                                 <img
                                 src = {wrexProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className={style.characterProfile}>
                             <h2>Liara Tsoni</h2>
@@ -66,20 +69,20 @@ function Characters () {
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Tali Zorah</h2>
+                            <h2>Ashley Williams</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {taliProfile}
+                                src = {ashleyProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Tali Zorah</h2>
+                            <h2>Kaiden Alenko</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {taliProfile}
+                                src = {kaidenProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
