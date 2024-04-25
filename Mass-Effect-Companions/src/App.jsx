@@ -7,6 +7,8 @@ import './App.css'
 
 import Characterpage from './pages/Characters'
 import Historypage from './pages/History'
+import Garruspage from './Characterpages/Garrus'
+
 import Footer from './components/Footer'
 import Logo from './components/Logo'
 import HomePage from './pages/Homepage'
@@ -24,6 +26,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="history" element={<Historypage />} />
           <Route path="companions" element={<Characterpage />} />
+          <Route path="garrus" element={<Garruspage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

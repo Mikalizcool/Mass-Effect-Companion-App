@@ -25,7 +25,7 @@ function Characters () {
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
                             <h2>Garrus Vakarian</h2>
-                            <Link to="Garrus">
+                            <Link to="/garrus">
                                 <img
                                 src = {garrusProfile}
                                 alt = "Kaiden Alenko"
