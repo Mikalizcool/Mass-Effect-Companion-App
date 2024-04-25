@@ -9,6 +9,18 @@ import jackProfile from '../assets/jack-profile.jpg'
 import mirandaProfile from '../assets/miranda-profile.jpg'
 import ashleyProfile from '../assets/ashley-profile.jpg'
 import kaidenProfile from '../assets/kaiden-profile.jpg'
+import kasumiProfile from '../assets/kasumi-profile.jpg'
+import gruntProfile from '../assets/grunt-profile.jpg'
+import thaneProfile from '../assets/thane-profile.jpg'
+import legionProfile from '../assets/legion-profile.jpg'
+import zaeedProfile from '../assets/zaeed-profile.jpg'
+import samaraProfile from '../assets/samara-profile.jpg'
+import mordinProfile from '../assets/mordin-profile.jpg'
+import javikProfile from '../assets/javik-profile.jpg'
+import jamesProfile from '../assets/james-profile.jpg'
+import ediProfile from '../assets/edi-profile.jpg'
+import ariaProfile from '../assets/aria-profile.jpg'
+import nyreenProfile from '../assets/nyreen-profile.jpg'
 
 import { UseBackgroundImage } from '../hooks/designhooks';
 import companions from '../assets/companions.jpg'
@@ -99,30 +111,30 @@ function Characters () {
                 <div className={style.characterContainer}>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Garrus Vakarian</h2>
+                            <h2>Kasumi Goto</h2>
                             <Link to="Garrus">
                                 <img
-                                src = {garrusProfile}
+                                src = {kasumiProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
                             </Link>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Urdnot Wrex</h2>
+                            <h2>Grunt</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {wrexProfile}
+                                src = {gruntProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Liara Tsoni</h2>
+                            <h2>Thane Krios</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {liaraProfile}
+                                src = {thaneProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
@@ -131,62 +143,30 @@ function Characters () {
                     </div>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Tali Zorah</h2>
+                            <h2>Jack</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {taliProfile}
+                                src = {jackProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Tali Zorah</h2>
+                            <h2>Miranda Lawson</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {taliProfile}
+                                src = {mirandaProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Tali Zorah</h2>
+                            <h2>Legion</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {taliProfile}
-                                alt = "Kaiden Alenko"
-                                className = {style.characterImage}
-                                />
-                            </a>
-                        </div>
-                    </div>
-                    <div className={style.characterRow}>
-                        <div className={style.characterProfile}>
-                            <h2>Garrus Vakarian</h2>
-                            <Link to="Garrus">
-                                <img
-                                src = {garrusProfile}
-                                alt = "Kaiden Alenko"
-                                className = {style.characterImage}
-                                />
-                            </Link>
-                        </div>
-                        <div className={style.characterProfile}>
-                            <h2>Urdnot Wrex</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
-                                <img
-                                src = {wrexProfile}
-                                alt = "Kaiden Alenko"
-                                className = {style.characterImage}
-                                />
-                            </a>
-                        </div>
-                        <div className={style.characterProfile}>
-                            <h2>Liara Tsoni</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
-                                <img
-                                src = {liaraProfile}
+                                src = {legionProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
@@ -195,14 +175,34 @@ function Characters () {
                     </div>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Garrus Vakarian</h2>
+                            <h2>Zaeed Massani</h2>
                             <Link to="Garrus">
                                 <img
-                                src = {garrusProfile}
+                                src = {zaeedProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
                             </Link>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Samara</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {samaraProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
+                        </div>
+                        <div className={style.characterProfile}>
+                            <h2>Mordin Solus</h2>
+                            <a href="https://mikalizcool.com" target="_blank">
+                                <img
+                                src = {mordinProfile}
+                                alt = "Kaiden Alenko"
+                                className = {style.characterImage}
+                                />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -215,30 +215,30 @@ function Characters () {
                 <div className={style.characterContainer}>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Garrus Vakarian</h2>
+                            <h2>Javik</h2>
                             <Link to="Garrus">
                                 <img
-                                src = {garrusProfile}
+                                src = {javikProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
                             </Link>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Urdnot Wrex</h2>
+                            <h2>James Vega</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {wrexProfile}
+                                src = {jamesProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Liara Tsoni</h2>
+                            <h2>EDI</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {liaraProfile}
+                                src = {ediProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
@@ -247,20 +247,20 @@ function Characters () {
                     </div>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Tali Zorah</h2>
+                            <h2>Aria T'Loak</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {taliProfile}
+                                src = {ariaProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Tali Zorah</h2>
+                            <h2>Nyreen Kandros</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
-                                src = {taliProfile}
+                                src = {nyreenProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
