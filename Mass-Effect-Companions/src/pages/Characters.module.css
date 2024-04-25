@@ -21,6 +21,8 @@
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
   }
 
   .intro {
@@ -53,10 +55,19 @@
     letter-spacing: -5px;
     padding-left: 0;
     margin-left: 0;
+    background: linear-gradient(180deg, rgba(52, 82, 157, 1) 0%, rgba(36, 36, 36, 1) 100%);
   }
 
   .characterRow {
     display: flex;
+  }
+
+  .name {
+    position: absolute;
+    top: 175px;
+    background: linear-gradient(90deg, rgba(63, 63, 63, 1) 0%, rgba(63, 63, 63, 0.52) 100%);
+    width: 100%;
+    color: rgb(202, 202, 202);
   }
   @media (max-width: 800px) {
     .container {

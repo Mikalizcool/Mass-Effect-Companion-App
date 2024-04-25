@@ -39,7 +39,7 @@ function Characters () {
                 <div className={style.characterContainer}>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Garrus Vakarian</h2>
+                            <h2 className={style.name}>Garrus Vakarian</h2>
                             <Link to="/garrus">
                                 <img
                                 src = {garrusProfile}
@@ -49,7 +49,7 @@ function Characters () {
                             </Link>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Urdnot Wrex</h2>
+                            <h2 className={style.name}>Urdnot Wrex</h2>
                             <Link to="/wrex">
                                 <img
                                 src = {wrexProfile}
@@ -59,7 +59,7 @@ function Characters () {
                             </Link>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Liara Tsoni</h2>
+                            <h2 className={style.name}>Liara Tsoni</h2>
                             <Link to="/liara">
                                 <img
                                 src = {liaraProfile}
@@ -71,7 +71,7 @@ function Characters () {
                     </div>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Tali Zorah</h2>
+                            <h2 className={style.name}>Tali Zorah</h2>
                             <Link to="/tali">
                                 <img
                                 src = {taliProfile}
@@ -81,7 +81,7 @@ function Characters () {
                             </Link>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Ashley Williams</h2>
+                            <h2 className={style.name}>Ashley Williams</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {ashleyProfile}
@@ -91,7 +91,7 @@ function Characters () {
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Kaiden Alenko</h2>
+                            <h2 className={style.name}>Kaiden Alenko</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {kaidenProfile}
@@ -111,7 +111,7 @@ function Characters () {
                 <div className={style.characterContainer}>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Kasumi Goto</h2>
+                            <h2 className={style.name}>Kasumi Goto</h2>
                             <Link to="Garrus">
                                 <img
                                 src = {kasumiProfile}
@@ -121,7 +121,7 @@ function Characters () {
                             </Link>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Grunt</h2>
+                            <h2 className={style.name}>Grunt</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {gruntProfile}
@@ -131,7 +131,7 @@ function Characters () {
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Thane Krios</h2>
+                            <h2 className={style.name}>Thane Krios</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {thaneProfile}
@@ -143,7 +143,7 @@ function Characters () {
                     </div>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Jack</h2>
+                            <h2 className={style.name}>Jack</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {jackProfile}
@@ -153,7 +153,7 @@ function Characters () {
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Miranda Lawson</h2>
+                            <h2 className={style.name}>Miranda Lawson</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {mirandaProfile}
@@ -163,7 +163,7 @@ function Characters () {
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Legion</h2>
+                            <h2 className={style.name}>Legion</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {legionProfile}
@@ -175,7 +175,7 @@ function Characters () {
                     </div>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Zaeed Massani</h2>
+                            <h2 className={style.name}>Zaeed Massani</h2>
                             <Link to="Garrus">
                                 <img
                                 src = {zaeedProfile}
@@ -185,7 +185,7 @@ function Characters () {
                             </Link>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Samara</h2>
+                            <h2 className={style.name}>Samara</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {samaraProfile}
@@ -195,7 +195,7 @@ function Characters () {
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Mordin Solus</h2>
+                            <h2 className={style.name}>Mordin Solus</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {mordinProfile}
@@ -215,7 +215,7 @@ function Characters () {
                 <div className={style.characterContainer}>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Javik</h2>
+                            <h2 className={style.name}>Javik</h2>
                             <Link to="Garrus">
                                 <img
                                 src = {javikProfile}
@@ -225,7 +225,7 @@ function Characters () {
                             </Link>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>James Vega</h2>
+                            <h2 className={style.name}>James Vega</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {jamesProfile}
@@ -235,7 +235,7 @@ function Characters () {
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>EDI</h2>
+                            <h2 className={style.name}>EDI</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {ediProfile}
@@ -247,7 +247,7 @@ function Characters () {
                     </div>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
-                            <h2>Aria T'Loak</h2>
+                            <h2 className={style.name}>Aria T'Loak</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {ariaProfile}
@@ -257,7 +257,7 @@ function Characters () {
                             </a>
                         </div>
                         <div className={style.characterProfile}>
-                            <h2>Nyreen Kandros</h2>
+                            <h2 className={style.name}>Nyreen Kandros</h2>
                             <a href="https://mikalizcool.com" target="_blank">
                                 <img
                                 src = {nyreenProfile}
