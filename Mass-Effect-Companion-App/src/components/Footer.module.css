@@ -37,3 +37,20 @@
     color: grey;
     padding-left: 15px;
   }
+
+ @media (max-width: 800px) {
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 300px;
+    padding-left: 15px;
+  }
+
+  .footerMessage {
+    color: grey;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+  }
+ }
