@@ -69,8 +69,36 @@
     width: 100%;
     color: rgb(202, 202, 202);
   }
-  @media (max-width: 800px) {
+  @media (max-width: 1300px) {
     .container {
       flex-direction: column;
+      align-items: center;
+    }
+    .gameText {
+      writing-mode: horizontal-tb;
+      text-orientation: sideways-right;
+      font-family: "Jersey 10", sans-serif;
+      font-size: 2rem;
+      padding: 15px;
+      letter-spacing: 5px;
+      padding-right: 0;
+      padding-left: 0;
+      margin-left: 0;
+      background: linear-gradient(180deg, rgba(52, 82, 157, 1) 0%, rgba(36, 36, 36, 1) 100%);
+      text-align: center;
+    }
+    .gameContainer {
+      justify-content: center;
+      width: 100%;
+    }
+    .characterRow {
+      flex-direction: column;
+      align-items: center;
+    }
+    .intro {
+      font-family: "Jersey 10", sans-serif;
+      font-size: 1.5rem;
+      padding: 15px;
+      text-align: center;
     }
   }
