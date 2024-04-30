@@ -78,7 +78,6 @@
       writing-mode: horizontal-tb;
       text-orientation: sideways-right;
       font-family: "Jersey 10", sans-serif;
-      font-size: 2rem;
       padding: 15px;
       letter-spacing: 5px;
       padding-right: 0;
@@ -100,5 +99,17 @@
       font-size: 1.5rem;
       padding: 15px;
       text-align: center;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .characterImage {
+      width: 50vw;
+    }
+
+    .name {
+      text-align: center;
+      position: static;
+      font-size: 5vw;
     }
   }
