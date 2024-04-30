@@ -39,10 +39,9 @@
 
 .containerb img {
     display: flex;
-    max-width: 80%;
-    max-height: 80%;
-    width: auto;
-    height: auto;
+    max-width: 480px;
+    max-height: 600px;
+    
 }
 
 @media (max-width: 1300px) {
