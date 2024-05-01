@@ -28,4 +28,8 @@
     ul {
         text-align: center;
     }
+
+    .container {
+        padding-left: 0;
+    }
 }
