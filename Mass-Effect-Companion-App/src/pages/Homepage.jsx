@@ -12,7 +12,6 @@ function Homepage () {
         <div className={style.container}>
             
             <Logo />
-                <h1 className="text-xl font-bold text-red-500">Hi!</h1>
                 <ul className={style.ulcontainer}>
                     <li><Link to="history">History of Mass Effect</Link></li>
                     <li><Link to="companions">Companions</Link></li>
