@@ -7,7 +7,7 @@ function Navlinks() {
         <>
             <Link to="/">Home</Link>
             <Link to="/history">History</Link>
-            <Link to="/companions">Comapnions</Link>
+            <Link to="/companions">Companions</Link>
         </>
     )
 }
