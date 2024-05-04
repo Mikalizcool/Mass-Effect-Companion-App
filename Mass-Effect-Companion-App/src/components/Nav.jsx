@@ -20,8 +20,8 @@ function Nav() {
     }
     return (
         <>
-            <div className="flex w-1/3 justify-end">
-                <div className="hidden w-full md:flex justify-between">
+            <div className="flex justify-end w-1/3">
+                <div className="justify-between hidden w-full md:flex">
                     <Navlinks />
                 </div>
                 <div className="md:hidden">
