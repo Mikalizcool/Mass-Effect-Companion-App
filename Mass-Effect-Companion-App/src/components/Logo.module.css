@@ -4,9 +4,14 @@
     padding: 0;
 }
 .companionapp {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
     margin-top: 0;
     opacity: 70%;
     font-size: 50px;
+    margin-bottom: 50px;
 }
 .container {
     display: flex;
