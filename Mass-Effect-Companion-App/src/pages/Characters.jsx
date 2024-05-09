@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import garrusProfile from '../assets/garrus-profile.jpg'
@@ -26,11 +26,14 @@ import { UseBackgroundImage } from '../hooks/designhooks';
 import companions from '../assets/companions.jpg'
 import style from './Characters.module.css'
 import Navbar from '../components/Navbar'
+
+
 function Characters () {
-    UseBackgroundImage();
+    UseBackgroundImage("");
     return (
         <>
             <Navbar />
+            <div>
             <p className={style.intro}>Throughout the Milky Way Galaxy, we encounter several companions...</p>
             <div className={style.container}>
                 <div className={style.gameContainer}>
@@ -82,13 +85,13 @@ function Characters () {
                         </div>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Ashley Williams</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to ="/ashley">
                                 <img
                                 src = {ashleyProfile}
-                                alt = "Kaiden Alenko"
+                                alt = "Ashley Williams"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Kaiden Alenko</h2>
@@ -102,6 +105,7 @@ function Characters () {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
 
             <div className={style.container}>

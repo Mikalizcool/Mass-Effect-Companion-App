@@ -11,6 +11,7 @@ import Garruspage from './Characterpages/Garrus'
 import Wrexpage from './Characterpages/Wrex'
 import Liarapage from './Characterpages/Liara'
 import Talipage from './Characterpages/Tali'
+import Ashleypage from './Characterpages/Ashley'
 
 import Footer from './components/Footer'
 import Logo from './components/Logo'
@@ -33,6 +34,7 @@ function App() {
           <Route path="wrex" element={<Wrexpage />} />
           <Route path="liara" element={<Liarapage />} />
           <Route path="tali" element={<Talipage />} />
+          <Route path="ashley" element={<Ashleypage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
