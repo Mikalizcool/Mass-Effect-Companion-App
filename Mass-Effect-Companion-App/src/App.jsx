@@ -22,6 +22,11 @@ import Legionpage from './Characterpages/Legion'
 import Zaeedpage from './Characterpages/Zaeed'
 import Samarapage from './Characterpages/Samara'
 import Mordinpage from './Characterpages/Mordin'
+import Javikpage from './Characterpages/Javik'
+import Jamespage from './Characterpages/James'
+import Edipage from './Characterpages/Edi'
+import Ariapage from './Characterpages/Aria'
+import Nyreenpage from './Characterpages/Nyreen'
 
 import Footer from './components/Footer'
 import Logo from './components/Logo'
@@ -55,6 +60,11 @@ function App() {
           <Route path="zaeed" element={<Zaeedpage />} />
           <Route path="samara" element={<Samarapage />} />
           <Route path="mordin" element={<Mordinpage />} />
+          <Route path="javik" element={<Javikpage />} />
+          <Route path="james" element={<Jamespage />} />
+          <Route path="edi" element={<Edipage />} />
+          <Route path="aria" element={<Ariapage />} />
+          <Route path="nyreen" element={<Nyreenpage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
