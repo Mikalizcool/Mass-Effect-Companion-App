@@ -126,23 +126,23 @@ function Characters () {
                         </div>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Grunt</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/grunt">
                                 <img
                                 src = {gruntProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Thane Krios</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/thane">
                                 <img
                                 src = {thaneProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className={style.characterRow}>
