@@ -16,6 +16,12 @@ import Kaidenpage from './Characterpages/Kaiden'
 import Kasumipage from './Characterpages/Kasumi'
 import Gruntpage from './Characterpages/Grunt'
 import Thanepage from './Characterpages/Thane'
+import Jackpage from './Characterpages/Jack'
+import Mirandapage from './Characterpages/Miranda'
+import Legionpage from './Characterpages/Legion'
+import Zaeedpage from './Characterpages/Zaeed'
+import Samarapage from './Characterpages/Samara'
+import Mordinpage from './Characterpages/Mordin'
 
 import Footer from './components/Footer'
 import Logo from './components/Logo'
@@ -43,6 +49,12 @@ function App() {
           <Route path="kasumi" element={<Kasumipage />} />
           <Route path="grunt" element={<Gruntpage />} />
           <Route path="thane" element={<Thanepage />} />
+          <Route path="jack" element={<Jackpage />} />
+          <Route path="miranda" element={<Mirandapage />} />
+          <Route path="legion" element={<Legionpage />} />
+          <Route path="zaeed" element={<Zaeedpage />} />
+          <Route path="samara" element={<Samarapage />} />
+          <Route path="mordin" element={<Mordinpage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

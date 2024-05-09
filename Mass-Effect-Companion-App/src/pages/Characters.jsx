@@ -129,7 +129,7 @@ function Characters () {
                             <Link to="/grunt">
                                 <img
                                 src = {gruntProfile}
-                                alt = "Kaiden Alenko"
+                                alt = "Grunt"
                                 className = {style.characterImage}
                                 />
                             </Link>
@@ -139,7 +139,7 @@ function Characters () {
                             <Link to="/thane">
                                 <img
                                 src = {thaneProfile}
-                                alt = "Kaiden Alenko"
+                                alt = "Thane Krios"
                                 className = {style.characterImage}
                                 />
                             </Link>
@@ -148,65 +148,65 @@ function Characters () {
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Jack</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/jack">
                                 <img
                                 src = {jackProfile}
-                                alt = "Kaiden Alenko"
+                                alt = "Jack"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Miranda Lawson</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/miranda">
                                 <img
                                 src = {mirandaProfile}
-                                alt = "Kaiden Alenko"
+                                alt = "Miranda"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Legion</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/legion">
                                 <img
                                 src = {legionProfile}
-                                alt = "Kaiden Alenko"
+                                alt = "Legion"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Zaeed Massani</h2>
-                            <Link to="Garrus">
+                            <Link to="/zaeed">
                                 <img
                                 src = {zaeedProfile}
-                                alt = "Kaiden Alenko"
+                                alt = "Zaeed Massani"
                                 className = {style.characterImage}
                                 />
                             </Link>
                         </div>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Samara</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/samara">
                                 <img
                                 src = {samaraProfile}
-                                alt = "Kaiden Alenko"
+                                alt = "Samara"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Mordin Solus</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/mordin">
                                 <img
                                 src = {mordinProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
