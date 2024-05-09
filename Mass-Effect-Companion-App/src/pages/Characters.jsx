@@ -95,13 +95,13 @@ function Characters () {
                         </div>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Kaiden Alenko</h2>
-                            <a href="https://mikalizcool.com" target="_blank">
+                            <Link to="/kaiden">
                                 <img
                                 src = {kaidenProfile}
                                 alt = "Kaiden Alenko"
                                 className = {style.characterImage}
                                 />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

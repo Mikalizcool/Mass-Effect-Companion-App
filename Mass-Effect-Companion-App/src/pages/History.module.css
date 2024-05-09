@@ -40,7 +40,8 @@
 .containerb img {
     display: flex;
     max-width: 480px;
-    
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 }
 
 @media (max-width: 1300px) {
