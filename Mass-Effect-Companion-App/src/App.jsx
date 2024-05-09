@@ -13,6 +13,7 @@ import Liarapage from './Characterpages/Liara'
 import Talipage from './Characterpages/Tali'
 import Ashleypage from './Characterpages/Ashley'
 import Kaidenpage from './Characterpages/Kaiden'
+import Kasumipage from './Characterpages/Kasumi'
 
 import Footer from './components/Footer'
 import Logo from './components/Logo'
@@ -37,6 +38,7 @@ function App() {
           <Route path="tali" element={<Talipage />} />
           <Route path="ashley" element={<Ashleypage />} />
           <Route path="kaiden" element={<Kaidenpage />} />
+          <Route path="kasumi" element={<Kasumipage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -116,10 +116,10 @@ function Characters () {
                     <div className={style.characterRow}>
                         <div className={style.characterProfile}>
                             <h2 className={style.name}>Kasumi Goto</h2>
-                            <Link to="Garrus">
+                            <Link to="/kasumi">
                                 <img
                                 src = {kasumiProfile}
-                                alt = "Kaiden Alenko"
+                                alt = "Kasumi Goto"
                                 className = {style.characterImage}
                                 />
                             </Link>
