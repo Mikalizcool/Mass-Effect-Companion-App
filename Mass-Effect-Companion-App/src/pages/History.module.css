@@ -71,6 +71,8 @@
         display: flex;
         max-width: 50vw;
         max-height: 40vw;
+        mask-image: none;
+        -webkit-mask-image: none;
     }
 
     .year {
@@ -94,7 +96,7 @@
         }
     
         .pcontainer {
-            font-size: 6vw;
+            font-size: 4vw;
         }
     
         .containerb img {
@@ -107,6 +109,7 @@
             font-family: "Jersey 10", sans-serif;
             font-size: 5vw;
             text-align: center;
+            padding-bottom: 10px;
         }
     
         .opening {
