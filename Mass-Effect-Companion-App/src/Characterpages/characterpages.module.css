@@ -76,10 +76,8 @@
 @media (max-width: 800px) {
     .containerright img {
         display: flex;
-        max-width:430px;
-        max-height:450px;
-        width: auto;
-        height: auto;
+        max-width: 50vw;
+        max-height: auto;
     }
     .description {
         font-size: 4vw;
